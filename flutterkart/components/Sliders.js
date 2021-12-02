@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Carousel } from 'react-bootstrap'
-import { DotButton, PrevButton, NextButton } from "./EmblaCarouselButtons";
-import useEmblaCarousel from "embla-carousel-react";
 import Image from 'next/image';
 
 
