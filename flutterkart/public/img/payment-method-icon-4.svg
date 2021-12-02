@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="46" viewBox="0 0 47 46">
+  <defs>
+    <clipPath id="clip-payment-method-icon-4">
+      <rect width="47" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="payment-method-icon-4" clip-path="url(#clip-payment-method-icon-4)">
+    <rect width="47" height="46" fill="rgba(255,255,255,0)"/>
+    <g id="paypal" transform="translate(9 3.5)">
+      <path id="Path_632" data-name="Path 632" d="M157.267,116.378a.825.825,0,0,0-1.239.623c-.03.271-.076.542-.134.826-1.617,7.339-4.864,10.908-9.93,10.908h-7.433a.826.826,0,0,0-.808.661l-2.478,11.613-.443,2.957a2.478,2.478,0,0,0,2.423,2.938H142.2a2.466,2.466,0,0,0,2.4-1.881l2.008-8.029h4.309c5.086,0,8.6-4.055,9.9-11.418h0A8.632,8.632,0,0,0,157.267,116.378Z" transform="translate(-127.231 -107.262)" fill="#03a9f4"/>
+      <path id="Path_633" data-name="Path 633" d="M65.992,2.944A8.691,8.691,0,0,0,59.55,0H45.874a4.108,4.108,0,0,0-4.086,3.512L37.541,31.841a2.478,2.478,0,0,0,2.453,2.846h6.343a.826.826,0,0,0,.808-.661l2.337-10.9h6.772c5.877,0,9.76-4.108,11.544-12.223a9.722,9.722,0,0,0,.165-.98A8.528,8.528,0,0,0,65.992,2.944Z" transform="translate(-37.513 0)" fill="#283593"/>
+    </g>
+  </g>
+</svg>

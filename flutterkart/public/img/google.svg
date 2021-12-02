@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.67" height="29" viewBox="0 0 26.67 29">
+  <defs>
+    <clipPath id="clip-google">
+      <rect width="26.67" height="29"/>
+    </clipPath>
+  </defs>
+  <g id="google" clip-path="url(#clip-google)">
+    <rect width="26.67" height="29" fill="rgba(255,255,255,0)"/>
+    <g id="search" transform="translate(2.999 4)">
+      <path id="Path_654" data-name="Path 654" d="M4.507,145.065,3.8,147.708l-2.587.055a10.185,10.185,0,0,1-.075-9.494h0l2.3.422L4.45,140.98a6.068,6.068,0,0,0,.057,4.085Z" transform="translate(0 -132.776)" fill="#fbbb00"/>
+      <path id="Path_655" data-name="Path 655" d="M271.394,208.176A10.164,10.164,0,0,1,267.77,218h0l-2.9-.148-.411-2.563a6.06,6.06,0,0,0,2.607-3.094h-5.437v-4.022h9.766Z" transform="translate(-251.237 -199.908)" fill="#518ef8"/>
+      <path id="Path_656" data-name="Path 656" d="M45.829,315.216h0a10.171,10.171,0,0,1-15.321-3.111l3.295-2.7a6.047,6.047,0,0,0,8.714,3.1Z" transform="translate(-29.297 -297.12)" fill="#28b446"/>
+      <path id="Path_657" data-name="Path 657" d="M44.145,2.341l-3.294,2.7A6.046,6.046,0,0,0,31.937,8.2L28.625,5.492h0A10.17,10.17,0,0,1,44.145,2.341Z" transform="translate(-27.487)" fill="#f14336"/>
+    </g>
+  </g>
+</svg>

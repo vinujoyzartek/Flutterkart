@@ -13,9 +13,12 @@ export default function Layout({ children }) {
                 <title> demo</title>
             </Head>
             <NavBar />
-            <Container className={classes.main}>
+            {/* <Container className={classes.main}>
                 {children}
-            </Container>
+            </Container> */}
+            <div className={classes.main}>
+                {children}
+            </div>
             <Footer />
         </div>
     )

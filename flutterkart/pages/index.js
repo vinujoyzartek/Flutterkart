@@ -2,19 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
+import { getHomeSliders, getFeaturedProducts } from '../server/controller';
+import Sliders from '../components/Sliders';
+import FeatureProducts from '../components/FeatureProducts';
 
-export default function Home() {
+
+export default function Home(props) {
+  const { sliderData, featuredProducts } = props;  
   return (
-    <Layout>
-      <div>
-        <h1 className="text-green-300">Products</h1>
-        <ul>
-          <li>product 1</li>
-          <li>product 1</li>
-          <li>product 111</li>
-        </ul>
-      </div>
-    </Layout>
+    <>
+
+      <Layout>
+        <div>
+          <Sliders sliderData={sliderData} />
+          <FeatureProducts featuredProducts={featuredProducts} />
+        </div>
+      </Layout>
+    </>
   )
 }
 
@@ -24,9 +28,14 @@ export const getStaticProps =
       props: { sliderData },
     } = await getHomeSliders();
 
+    const {
+      props: { featuredProducts },
+    } = await getFeaturedProducts();
+
     return {
-      props: {       
+      props: {
         sliderData,
+        featuredProducts
       },
     };
   };

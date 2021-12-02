@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
+import Head from "next/head";
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
+
 // import 'tailwindcss/tailwind.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +12,14 @@ function MyApp({ Component, pageProps }) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp

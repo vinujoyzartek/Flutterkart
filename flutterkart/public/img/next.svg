@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="37" viewBox="0 0 25 37">
+  <defs>
+    <clipPath id="clip-next">
+      <rect width="25" height="37"/>
+    </clipPath>
+  </defs>
+  <g id="next" clip-path="url(#clip-next)">
+    <rect width="25" height="37" fill="rgba(255,255,255,0)"/>
+    <g id="arrow" transform="translate(-125.176 35) rotate(-90)">
+      <g id="_x31_0_34_" transform="translate(0 127.244)">
+        <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+          <path id="Path_1" data-name="Path 1" d="M33.583,127.663a1.418,1.418,0,0,0-2.012,0L17,143.651,2.429,127.663a1.418,1.418,0,0,0-2.012,0,1.435,1.435,0,0,0,0,2.022L15.922,146.7A1.4,1.4,0,0,0,17,147.1a1.4,1.4,0,0,0,1.077-.405l15.507-17.015A1.433,1.433,0,0,0,33.583,127.663Z" transform="translate(0 -127.245)" fill="#fecb00"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,13 +1,17 @@
 export const navigation = {
-    main: [
+    firstRow: [
         { name: 'Terms and Condition ', href: '/terms-and-conditions' },
         { name: 'Help Center ', href: '/help-center' },
         { name: `Blogs`, href: '/blogs' },
-        { name: 'Carrers', href: '/carrers' },
+        { name: 'Carrers', href: '/carrers' },        
+    ],
+    secondRow: [        
         { name: 'Contact us', href: '/contact-us' },
         { name: 'Privacy Policy', href: '/privacy-policy' },
         { name: 'Copy Rights ', href: '/copy-rights ' },
-        { name: 'New Release ', href: '/new-release ' },
+        { name: 'New Release ', href: '/new-release ' },       ,
+    ],
+    thirdRow: [       
         { name: 'Licence', href: '/licence' },
         { name: 'About us', href: '/about-us' },
         { name: 'Testimonial', href: '/testimonial' },
@@ -59,4 +63,19 @@ export const navigation = {
             ),
         },
     ],
+}
+
+export  const filter ={
+    common:[
+        { name: 'Flutter UI/UX ', value: 'Flutter UI/UX' },
+        { name: 'Kit', value: 'Kit' },
+        { name: 'Template ', value: 'Template' },
+    ],
+    category:[
+        { name: 'Mobile ', value: 'Mobile' },
+        { name: 'Full Application', value: 'Full Application' },
+        { name: 'Template ', value: 'Template' },
+        { name: 'UI Elements', value: 'UI Elements' },
+        { name: 'Utilites ', value: 'Utilites' },
+    ]
 }
